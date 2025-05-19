@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps2"
+    tools:context=".Bathroom">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="textMultiLine"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="15dp"
+                android:text="Bathrooms have an estimated 12% risk of hidden cameras. \n\nCheck the following areas and follow these precautions:\n\n1. Water Heater - \nPrecaution: Turn off the heater completely before using the bathroom.\n\n2. Mirror - \nPrecaution: Press your finger against the mirror. If there’s no gap between your finger and its reflection, it may be a two-way mirror. Be alert and report it.\n\n3. Ceiling/Smoke Detector - \nPrecaution: If you're unsure, place a sticker or cover the lens area with tape.\n\n4. Lamps or Bulbs - \nPrecaution: While difficult to detect, try using curtains or covers for privacy."
+                android:textColor="#000000"
+                android:textSize="14dp" />
+
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

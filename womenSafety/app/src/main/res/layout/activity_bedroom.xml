@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps2"
+    tools:context=".Bedroom">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="5dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="textMultiLine"
+                android:paddingLeft="5dp"
+                android:paddingRight="2dp"
+                android:paddingBottom="15dp"
+                android:text="Bedrooms may carry a 15% chance of hidden surveillance. \n\nScan these items carefully:\n\n1. Smoke Detector - \nPrecaution: Use a sticker or opaque tape to cover the visible area.\n\n2. Air Conditioner - \nPrecaution: If suspicious, switch it off and avoid using rotating blades. Use a fan instead.\n\n3. Television - \nPrecaution: Disconnect the main power supply. Place objects in front of the lens-like area if visible.\n\n4. Night Lamp - \nPrecaution: Keep it switched off or reposition it away from direct viewing angles.\n\n5. Flower Pot - \nPrecaution: Relocate it to an area where it doesn’t face personal spaces.\n\n6. Coffee Maker - \nPrecaution: Unplug it and store it in a cupboard when not in use.\n\nBefore leaving, always switch off the lights to avoid being recorded."
+                android:textColor="#000000"
+                android:textSize="14dp" />
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
